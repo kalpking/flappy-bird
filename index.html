@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Flappy Bird</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="bird" class="bird"></div>
+        <div id="pipe" class="pipe"></div>
+        <div id="pipeBottom" class="pipe-bottom"></div>
+        <div id="score" class="score">Score: 0</div>
+        <div id="highscore" class="highscore">Highscore: 0</div>
+        <button id="startOver" class="button">Start Over</button>
+        <button id="startAgain" class="button">Start Again</button>
+        <button id="pauseButton" class="button">Pause</button>
+        <div id="difficultySelector" class="difficulty-selector">
+            <button data-level="easy">Easy</button>
+            <button data-level="medium">Medium</button>
+            <button data-level="hard">Hard</button>
+        </div>
+    </div>
+
+    <div id="tutorial" class="tutorial">
+        <h2>How to Play</h2>
+        <p>Press spacebar to make the bird fly.</p>
+        <p>Avoid the pipes and try to score as high as possible!</p>
+        <button id="startTutorial">Start Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
